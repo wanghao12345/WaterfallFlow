@@ -1,0 +1,26 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.container{
+	position: relative;
+}
+.box{
+	float: left;
+	padding: 5px;
+}
+.box-img{
+	padding: 5px;
+	border: 1px solid #ccc;
+	box-shadow:0 0 5px #ccc;
+	border-radius: 5px;
+}
+.box-img img{
+	width: 230px;
+	height: auto; /*自动计算*/
+}
+
